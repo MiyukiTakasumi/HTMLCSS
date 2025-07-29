@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*TUDO QUE EM HTML É id = EM CSS É #
+TUDO QUE EM HTML É class = EM CSS É .(PONTO)*/
+
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #1e402f; 
+}
+h1#principal {/*ISSO É UM SELETOR PERSONALIZADO*/
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+h2 {
+    color: #3c805e;
+}
+.basico {/*OUTRO SELETOR PERSONALIZADO*/
+    color: #3c805e ;
+}
+.intermediario {
+    color: #80793c;
+}
+.avancado {
+    color: #803c3c;
+}
+.destaque {
+    background-color: #c5c56070;
+}
+p {
+
+}
