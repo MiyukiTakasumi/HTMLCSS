@@ -15,12 +15,36 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
+
+    display: flex;/*pai*/
+    flex-flow: row wrap;
+    justify-content: space-between;/*h1 fica na esquerda e nav na direita*/
+    align-items: center;
 }
-header > h1 {
+header > h1 {/*item*/
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 header > nav {
     border: 1px dotted black;
+
+    display: flex;/*item que vai se comportar como pai dos item a*/
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 main {
     background-color: white;
